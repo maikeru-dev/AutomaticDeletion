@@ -1,0 +1,13 @@
+
+# Plugin config as of 10:49am 26th of May 2023 London Time
+
+deletion:
+  time-period: 2160 # Provide a UNIX time period. Default: 90 days (2160)
+  directories:     # Directories to check when deleting, provide the file format as well.
+    - \\world\\advancements\\*.json
+    - \\world\\playerdata\\*.dat
+    - \\world\\playerdata\\*.dat_old
+    - \\world\\stats\\*.json
+#- \\plugins\\Essentials\\userdata\\*.yml"
+
+

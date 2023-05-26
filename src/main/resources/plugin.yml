@@ -1,0 +1,13 @@
+name: AutomaticDeletion
+version: '${project.version}'
+main: eu.maikeru.automaticdeletion.AutomaticDeletion
+api-version: 1.19
+
+commands:
+  scan:
+    description: "Scan command used for scheduled deletion of player data."
+    usage: "/scan"
+    permission: automaticdeletion.scan
+permissions:
+  automaticdeletion.scan:
+    default: op
